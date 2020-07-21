@@ -8,6 +8,7 @@ The dataset could be downloaded from [here](https://drive.google.com/file/d/1Dr_
 
 ### 2) Training
 Training is done using the command
+
   python train.py
 
 Parameters:
