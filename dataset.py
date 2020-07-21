@@ -10,10 +10,10 @@ class LaserNet_Dataset(Dataset):
   def __init__(self, lidar_data, image_data, targets, transform=None):
       """
       Args:
-          csv_file (string): Path to the csv file with labels
-          root_dir (string): Directory with all the images for all digits
-          transform (callable, optional): Optional transform to be applied
-              on a sample.
+          lidar_data: path to lidar data
+          image_data: path to rgb image data
+          targets: path to targets data
+          transforms: optional transforms to apply to the rgb images
       """
       self.lidar_data = lidar_data
       self.image_data = image_data
