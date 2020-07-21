@@ -7,7 +7,8 @@ This is an implementation of an idea that simplifies the LaserNet paper for the 
 The dataset could be downloaded from [here](https://drive.google.com/file/d/1Dr_ILGfhudFuJpiO5nE-x04aImWVeRJW/view?usp=sharing). Unzip the saved file so that you have a folder data with images.npy, lidar.npy, and targets.npy in it.
 
 ### 2) Training
-Training is done using the command python train.py
+Training is done using the command
+  python train.py
 
 Parameters:
 * --epochs: Number of epochs
